@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <!-- modification -->
     <div id="logo">
         <img src="./assets/img/Logo BoumBoum.png" alt="">
     </div>
