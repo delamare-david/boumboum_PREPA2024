@@ -11,6 +11,7 @@ $rq = "UPDATE `user` SET `titre1`='$titre1',`titre2`='$titre2',`titre3`='$titre3
                      WHERE email ='$email'";
 $update = $pdo->prepare($rq);
 $update->execute();
+header("Location: ./login.php?email=".$email);
 ?>
 
 

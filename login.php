@@ -42,6 +42,9 @@ if (isset($_POST["submited"])) {
 </head>
 
 <body>
+<header>
+        <?php include("./inc/menu.php"); ?>
+    </header>
     Bonjour tout le monde !
     <?php
     /* Ici je déclare une variable avec le signe $ attaché */
